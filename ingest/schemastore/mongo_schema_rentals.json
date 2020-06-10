@@ -1,0 +1,80 @@
+{
+  "bsonType": "object",
+  "required": [
+    "href",
+    "data_id",
+    "posted_at"
+  ],
+  "properties": {
+    "_id": {},
+    "href": {
+      "bsonType": "string"
+    },
+    "data_id": {
+      "bsonType": "string"
+    },
+    "posted_at": {
+      "bsonType": "string"
+    },
+    "repost_of": {
+      "bsonType": "string"
+    },
+    "price": {
+      "bsonType": "decimal"
+    },
+    "bedrooms": {
+      "bsonType": "decimal"
+    },
+    "bathrooms": {
+      "bsonType": "decimal"
+    },
+    "sqft": {
+      "bsonType": "decimal"
+    },
+    "availability": {
+      "bsonType": "string"
+    },
+    "features": {
+      "bsonType": "array"
+    },
+    "images": {
+      "bsonType": "array"
+    },
+    "latlong": {
+      "bsonType": "string"
+    },
+    "description": {
+      "bsonType": "string"
+    },
+    "ngrams": {
+      "bsonType": "array"
+    },
+    "house_number": {
+      "bsonType": "string"
+    },
+    "road": {
+      "bsonType": "string"
+    },
+    "neighbourhood": {
+      "bsonType": "string"
+    },
+    "city": {
+      "bsonType": "string"
+    },
+    "county": {
+      "bsonType": "string"
+    },
+    "state": {
+      "bsonType": "string"
+    },
+    "suburb": {
+      "bsonType": "string"
+    },
+    "postcode": {
+      "bsonType": "string"
+    },
+    "country": {
+      "bsonType": "string"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "fields": [
+    {
+      "type": "STRING",
+      "name": "data_id",
+      "mode": "REQUIRED"
+    },
+    {
+      "type": "DATETIME",
+      "name": "posted_at",
+      "mode": "REQUIRED"
+    },
+    {
+      "type": "STRING",
+      "name": "repost_of",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "NUMERIC",
+      "name": "price",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "NUMERIC",
+      "name": "bedrooms",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "NUMERIC",
+      "name": "bathrooms",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "NUMERIC",
+      "name": "sqft",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "availability",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "features",
+      "mode": "REPEATED"
+    },
+    {
+      "type": "STRING",
+      "name": "latlong",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "description",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "house_number",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "road",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "neighbourhood",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "city",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "county",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "state",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "suburb",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "postcode",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "country",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "ngrams",
+      "mode": "REPEATED"
+    }
+  ]
+}

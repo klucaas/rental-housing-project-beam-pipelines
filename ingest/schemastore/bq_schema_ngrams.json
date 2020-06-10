@@ -1,0 +1,32 @@
+{
+  "kind": "bigquery#table",
+  "creationTime": "1591414157602",
+  "location": "US",
+  "tableReference": {
+    "projectId": "rental-housing-project",
+    "tableId": "ngrams",
+    "datasetId": "rentals"
+  },
+  "numRows": "0",
+  "numBytes": "0",
+  "etag": "HUTqqaAsjLU78o3ZtOD4Fg==",
+  "numLongTermBytes": "0",
+  "lastModifiedTime": "1591414157642",
+  "type": "TABLE",
+  "id": "rental-housing-project:rentals.ngrams",
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/rental-housing-project/datasets/rentals/tables/ngrams",
+  "schema": {
+    "fields": [
+      {
+        "type": "STRING",
+        "name": "ngram",
+        "mode": "REQUIRED"
+      },
+      {
+        "type": "INTEGER",
+        "name": "frequency",
+        "mode": "REQUIRED"
+      }
+    ]
+  }
+}

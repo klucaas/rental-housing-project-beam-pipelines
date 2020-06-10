@@ -1,0 +1,54 @@
+{
+  "fields": [
+    {
+      "type": "STRING",
+      "name": "house_number",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "road",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "neighbourhood",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "city",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "county",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "state",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "suburb",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "postcode",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "country",
+      "mode": "NULLABLE"
+    },
+    {
+      "type": "STRING",
+      "name": "latlong",
+      "mode": "REQUIRED"
+    }
+  ]
+}
