@@ -1,0 +1,5 @@
+steps:
+- name: 'docker.io/library/python:3.8'
+  id: INSTALL_THEN_RUN_TESTS
+  entrypoint: /bin/sh
+  args: [-c, 'pip install -r requirements.txt', '&&', 'python -m unittest discover']
